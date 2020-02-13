@@ -5,6 +5,8 @@ fn main() {
 
     let a = tup.0;
     let b = tup.1;
-    
+
     println!("x = {} y = {} z = {}", x, y, z);
+
+    println!("a = {} b = {}", a, b);
 }
