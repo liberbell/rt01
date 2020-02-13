@@ -4,5 +4,5 @@ fn main() {
 
     println!("First Month = {}", months[0]);
 
-    println!("Fourteen Month = {}", months[14]);
+    println!("Fourteenth Month = {}", months[14]);
 }
