@@ -11,3 +11,7 @@ fn another_function() {
 fn another_function2(x:i32) {
     println!("The value of x = {}", x);
 }
+
+fn sum(x:i32, y:i32) -> i32 {
+    x + y
+}
