@@ -2,6 +2,8 @@ fn main() {
     println!("Hello, world!");
     another_function();
     another_function2(10);
+
+    sum(10, 20);
 }
 
 fn another_function() {
