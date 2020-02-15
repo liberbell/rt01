@@ -3,5 +3,7 @@ fn main() {
 
     if a < 10 {
         println!("Condition is true")
+    } else {
+        println!("Condition is false")
     }
 }
