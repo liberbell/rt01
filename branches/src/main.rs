@@ -8,10 +8,10 @@ fn main() {
     }
 
     if a % 4 == 0 {
-        println!("A is divisible by 4")
+        println!("A is divisible by 4");
     } else if a % 3 == 0 {
-        println!("A is divisible by 3")
+        println!("A is divisible by 3");
     } else if a % 2 == 0 {
-        println!("A is disviible by 2")
+        println!("A is disviible by 2");
     }
 }
