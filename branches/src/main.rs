@@ -13,5 +13,7 @@ fn main() {
         println!("A is divisible by 3");
     } else if a % 2 == 0 {
         println!("A is disviible by 2");
+    } else {
+        println!("A is not divisible by 4, 3, and 2")
     }
 }
