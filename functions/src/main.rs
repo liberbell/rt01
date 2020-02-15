@@ -18,4 +18,5 @@ fn another_function2(x:i32) {
 fn sum(x:i32, y:i32) -> i32 {
     let mut b = x + y;
     b = b * 100;
+    return b;
 }
