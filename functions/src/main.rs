@@ -4,7 +4,7 @@ fn main() {
     another_function2(10);
 
     let a = sum(10, 20);
-    println!("sum = {}", a)
+    println!("sum = {}", a);
 }
 
 fn another_function() {
