@@ -3,7 +3,8 @@ fn main() {
     another_function();
     another_function2(10);
 
-    sum(10, 20);
+    let a = sum(10, 20);
+    println!("sum = {}", a)
 }
 
 fn another_function() {
