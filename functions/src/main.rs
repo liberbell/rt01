@@ -16,5 +16,6 @@ fn another_function2(x:i32) {
 }
 
 fn sum(x:i32, y:i32) -> i32 {
-    x + y;
+    let b = x + y;
+    b * 100
 }
