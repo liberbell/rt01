@@ -1,5 +1,5 @@
 fn main() {
-    let s = String::from("hello");  // s comes into scope.
+    let mut s = String::from("hello");  // s comes into scope.
 
     takes_ownership(&mut s);             // s's value moves into the function...
                                     // ... and so is no longer valid here.
@@ -16,7 +16,7 @@ fn main() {
 
 fn takes_ownership(some_string: &mut String) { // some_string comes into scope.
     println!("{}", some_string);
-    some_string.push_str("World!")
+    some_string.push_str("World!");
 } // Here, some_string goes out of scope and `drop` is called. The backing
   // memory is freed.
 
