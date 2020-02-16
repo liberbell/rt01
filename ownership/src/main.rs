@@ -6,5 +6,5 @@ fn main() {
         println!("A = {}", a)
     }
 
-    println!("A = {}", a)
+    println!("A = {}", x)
 }
