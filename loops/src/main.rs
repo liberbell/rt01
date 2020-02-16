@@ -9,4 +9,6 @@ fn main() {
         println!("{}!", number);
         number = number -1;
     }
+
+    let a = [1, 2, 3, 4, 5];
 }
