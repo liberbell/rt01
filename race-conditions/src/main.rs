@@ -4,7 +4,7 @@ fn main() {
     println!("{}", refers_nothing);
 }
 
-fn dungle() -> String {
+fn dangle() -> String {
     let s = String::from("hello")
 
     s
