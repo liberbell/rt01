@@ -1,11 +1,11 @@
 fn main() {
-    let refer_nothing = dangle();
+    let refers_nothing = dangle();
 
-    println!("{}", refer_nothing);
+    println!("{}", refers_nothing);
 }
 
 fn dungle() -> String {
     let s = String::from("hello")
 
-    s;
+    s
 }
