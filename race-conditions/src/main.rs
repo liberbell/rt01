@@ -7,5 +7,5 @@ fn main() {
 fn dungle() -> String {
     let s = String::from("hello")
 
-    &s;
+    s;
 }
