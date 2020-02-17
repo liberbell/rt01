@@ -5,7 +5,7 @@ fn main() {
 }
 
 fn dangle() -> String {
-    let s = String::from("hello")
+    let s = String::from("hello");
 
     s
 }
