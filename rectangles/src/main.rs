@@ -10,12 +10,14 @@ fn main() {
     let rect1 = Rectangle {width: 10, height:30};
 
     println!("Area is {}", area(width, height));
+
+    println!("Area is {}", area2(width, height));
 }
 
 fn area(width: u32, height: u32) -> u32 {
     width * height
 }
 
-fn area2(width: u32, height: u32) -> u32 {
-    width * height
+fn area2(rectangle: &Rectangle) -> u32 {
+    rectangle.width * rectangle.height
 }
