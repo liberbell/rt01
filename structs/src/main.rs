@@ -13,5 +13,6 @@ fn main() {
         sign_in_account: 1,
     };
 
-    println!("{}", user1.email)
+    println!("{}", user1.email);
+    println!("{}", user1.username);
 }
