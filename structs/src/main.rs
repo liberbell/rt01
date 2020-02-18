@@ -8,5 +8,8 @@ fn main() {
 
     let user1 = User {
         email: String::from("example@xyz.com"),
+        username: String::from("Taro"),
+        active: true,
+        sign_in_account: 1,
     }
 }
