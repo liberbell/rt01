@@ -19,6 +19,7 @@ fn main() {
     let user2 = User {
         email: String::from("user2@abc.com");
         username: String::from("user2");
+        ..user1
     }
 }
 
