@@ -11,5 +11,7 @@ fn main() {
         username: String::from("Taro"),
         active: true,
         sign_in_account: 1,
-    }
+    };
+
+    println!("{}", user1.email)
 }
