@@ -2,7 +2,7 @@ fn main() {
     struct User {
         username: String,
         email: String,
-        sign_in_account: u64,
+        sign_in_count: u64,
         active: bool,
     };
 
@@ -10,9 +10,18 @@ fn main() {
         email: String::from("example@xyz.com"),
         username: String::from("Taro"),
         active: true,
-        sign_in_account: 1,
+        sign_in_count: 1,
     };
 
     println!("{}", user1.email);
     println!("{}", user1.username);
+}
+
+fn build_user(email: String, username: String) -> User {
+    User{
+        email,
+        username,
+        active: true,
+        sign_in_count: 1,
+    };
 }
