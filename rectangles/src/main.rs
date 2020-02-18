@@ -11,7 +11,7 @@ fn main() {
 
     println!("Area is {}", area(width, height));
 
-    println!("Area is {}", area2(width, height));
+    println!("Area is {}", area2(&rect1));
 }
 
 fn area(width: u32, height: u32) -> u32 {
