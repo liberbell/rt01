@@ -3,6 +3,12 @@ enum IpAddrKind {
     v6(String),
 }
 
+enum Message {
+    Quit,
+    Move (X:i32, Y:i32),
+    Write(String)
+}
+
 fn main() {
     let four = IpAddrKind::V4;
     let six = IpAddrKind::V6;
