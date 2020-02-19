@@ -15,5 +15,5 @@ fn main() {
         height: 50,
     };
 
-    println!("Area = {}", rect1.area)
+    println!("Area = {}", rect1.area());
 }
