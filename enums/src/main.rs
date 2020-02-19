@@ -7,6 +7,7 @@ enum Message {
     Quit,
     Move (X:i32, Y:i32),
     Write(String)
+    ChangeColor(i32, i32, i32),
 }
 
 fn main() {
