@@ -23,5 +23,5 @@ fn main() {
     let home = IpAddrKind::V4(String::from("127.0.0.1"));
     let loopback = IpAddrKind::V6(String::from("::1"));
 
-    let m = Message::Write(String::from("hello"))
+    let m = Message::Write(String::from("hello"));
 }
