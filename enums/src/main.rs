@@ -10,6 +10,12 @@ enum Message {
     ChangeColor(i32, i32, i32),
 }
 
+impl Message {
+    fn call(&self) {
+        println!("I`m inside Call!");
+    }
+}
+
 fn main() {
     let four = IpAddrKind::V4;
     let six = IpAddrKind::V6;
