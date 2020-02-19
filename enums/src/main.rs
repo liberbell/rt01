@@ -4,5 +4,6 @@ enum IpAdrKind {
 }
 
 fn main() {
-    a;
+    let four = IpAdrKind::V4;
+    let six = IpAdrKind::V6;
 }
