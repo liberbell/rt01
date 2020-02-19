@@ -1,6 +1,6 @@
 enum IpAddrKind {
-    v4(String),
-    v6(String),
+    V4(String),
+    V6(String),
 }
 
 enum Message {
