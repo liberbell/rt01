@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world!");
+    let name = String::from("ram");
 }
