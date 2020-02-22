@@ -4,7 +4,7 @@ fn main() {
     let f = File::open("hello.txt");
 
     let foo = match f {
-        OK(file) => file,
+        Ok(file) => file,
         Err(error) => {
             panic!("File was not found");
         },
