@@ -7,6 +7,6 @@ fn main() {
         OK(file) => file,
         Err(error) => {
             panic!("File was not found");
-        }
-    }
+        },
+    };
 }
