@@ -5,7 +5,7 @@ fn main() {
 
     let _foo = match f {
         Ok(file) => file,
-        Err(error) => {
+        Err(_error) => {
             panic!("File was not found");
         },
     };
