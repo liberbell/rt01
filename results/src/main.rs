@@ -1,7 +1,7 @@
 use std::fs::File;
 
 fn main() {
-    let f = File::open("hello.txt");
+    let f = File::open("hello.txt").unwrap();
 
     let foo = match f {
         Ok(file) => file,
