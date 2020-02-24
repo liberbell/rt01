@@ -6,7 +6,7 @@ fn main() {
     println!("Please input your guess...");
 
     let secret_number = rand::thread_rng().gen_range(1,101);
-    println!("{}", secret_number);
+    println!("Secret number is = {}", secret_number);
 
     let mut guess = String::new();
     io::stdin().read_line(&mut guess)
